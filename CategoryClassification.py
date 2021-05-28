@@ -10,9 +10,9 @@ import math
 tf.random.set_seed(11)
 batch_size= 100
 epochs= 20
-labelColumn= "あなたの高校時代の芸術選択科目を教えてください。"
+labelColumn= "labelColumn"
 trainRatio = 0.7
-path = "data2/dataset.csv"
+path = "this/is/dataset/path"
 num_classes=  4
 
 #init

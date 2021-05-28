@@ -10,9 +10,9 @@ import math
 tf.random.set_seed(0)
 batch_size= 50
 epochs= 20
-labelColumn= "あなたが使っているのは"
+labelColumn= "labelColumn"
 trainRatio=0.7
-path="data/dataset.csv"
+path="this/is/dataset/path"
 accuracyRatio=0
 
 def createDataset(path:str, trainRatio:float,labelColumn):
